@@ -1,21 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
   <rect width="1280" height="720" fill="#f7fafc"/>
   <rect x="0" y="0" width="1280" height="64" fill="#0f766e"/>
-  <text x="28" y="40" font-size="24" fill="#ffffff" font-family="Arial">Transactions</text>
-  <rect x="28" y="92" width="1224" height="70" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="28" y="40" font-size="24" fill="#fff" font-family="Arial">Transactions</text>
+
+  <rect x="28" y="92" width="1224" height="70" rx="10" fill="#fff" stroke="#d1d5db"/>
   <rect x="44" y="110" width="120" height="34" rx="17" fill="#10b981"/>
+  <text x="76" y="133" font-size="14" fill="#fff" font-family="Arial">Income</text>
   <rect x="176" y="110" width="120" height="34" rx="17" fill="#ef4444"/>
+  <text x="210" y="133" font-size="14" fill="#fff" font-family="Arial">Expense</text>
   <rect x="308" y="110" width="260" height="34" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
-  <rect x="28" y="182" width="1224" height="510" rx="10" fill="#ffffff" stroke="#d1d5db"/>
-  <text x="50" y="220" font-size="18" fill="#111827" font-family="Arial">날짜</text>
-  <text x="220" y="220" font-size="18" fill="#111827" font-family="Arial">카테고리</text>
-  <text x="420" y="220" font-size="18" fill="#111827" font-family="Arial">금액</text>
-  <text x="560" y="220" font-size="18" fill="#111827" font-family="Arial">유형</text>
-  <text x="700" y="220" font-size="18" fill="#111827" font-family="Arial">메모</text>
-  <text x="1080" y="220" font-size="18" fill="#111827" font-family="Arial">액션</text>
+  <text x="326" y="132" font-size="14" fill="#6b7280" font-family="Arial">Search: food</text>
+
+  <rect x="28" y="182" width="1224" height="510" rx="10" fill="#fff" stroke="#d1d5db"/>
+  <text x="50" y="220" font-size="16" fill="#111827" font-family="Arial">Date</text>
+  <text x="220" y="220" font-size="16" fill="#111827" font-family="Arial">Category</text>
+  <text x="430" y="220" font-size="16" fill="#111827" font-family="Arial">Amount</text>
+  <text x="560" y="220" font-size="16" fill="#111827" font-family="Arial">Type</text>
+  <text x="700" y="220" font-size="16" fill="#111827" font-family="Arial">Memo</text>
+  <text x="1080" y="220" font-size="16" fill="#111827" font-family="Arial">Actions</text>
   <line x1="44" y1="236" x2="1236" y2="236" stroke="#e5e7eb"/>
+
+  <text x="50" y="270" font-size="15" fill="#334155" font-family="Arial">2026-05-01</text>
+  <text x="220" y="270" font-size="15" fill="#334155" font-family="Arial">Salary</text>
+  <text x="430" y="270" font-size="15" fill="#059669" font-family="Arial">+2,800,000</text>
+  <text x="560" y="270" font-size="15" fill="#059669" font-family="Arial">income</text>
+  <text x="700" y="270" font-size="15" fill="#334155" font-family="Arial">monthly pay</text>
+  <rect x="1070" y="252" width="56" height="24" rx="6" fill="#2563eb"/>
+  <rect x="1135" y="252" width="56" height="24" rx="6" fill="#ef4444"/>
+
   <line x1="44" y1="286" x2="1236" y2="286" stroke="#f1f5f9"/>
+  <text x="50" y="320" font-size="15" fill="#334155" font-family="Arial">2026-05-02</text>
+  <text x="220" y="320" font-size="15" fill="#334155" font-family="Arial">Food</text>
+  <text x="430" y="320" font-size="15" fill="#dc2626" font-family="Arial">-18,000</text>
+  <text x="560" y="320" font-size="15" fill="#dc2626" font-family="Arial">expense</text>
+  <text x="700" y="320" font-size="15" fill="#334155" font-family="Arial">lunch</text>
+
   <line x1="44" y1="336" x2="1236" y2="336" stroke="#f1f5f9"/>
-  <line x1="44" y1="386" x2="1236" y2="386" stroke="#f1f5f9"/>
-  <line x1="44" y1="436" x2="1236" y2="436" stroke="#f1f5f9"/>
+  <text x="50" y="370" font-size="15" fill="#334155" font-family="Arial">2026-05-03</text>
+  <text x="220" y="370" font-size="15" fill="#334155" font-family="Arial">Transport</text>
+  <text x="430" y="370" font-size="15" fill="#dc2626" font-family="Arial">-3,200</text>
+  <text x="560" y="370" font-size="15" fill="#dc2626" font-family="Arial">expense</text>
+  <text x="700" y="370" font-size="15" fill="#334155" font-family="Arial">bus card</text>
 </svg>

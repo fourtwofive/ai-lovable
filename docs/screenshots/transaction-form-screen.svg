@@ -1,16 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
   <rect width="1280" height="720" fill="#f8fafc"/>
   <rect x="0" y="0" width="1280" height="64" fill="#7c3aed"/>
-  <text x="28" y="40" font-size="24" fill="#ffffff" font-family="Arial">Transaction Form</text>
-  <rect x="40" y="96" width="820" height="580" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <rect x="890" y="96" width="350" height="580" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <text x="66" y="140" font-size="20" fill="#111827" font-family="Arial">거래 등록 / 수정</text>
-  <rect x="66" y="164" width="768" height="44" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
-  <rect x="66" y="232" width="768" height="44" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
-  <rect x="66" y="300" width="768" height="44" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
-  <rect x="66" y="368" width="768" height="44" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
-  <rect x="66" y="436" width="768" height="120" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
+  <text x="28" y="40" font-size="24" fill="#fff" font-family="Arial">Transaction Form</text>
+
+  <rect x="40" y="96" width="820" height="580" rx="12" fill="#fff" stroke="#dbe2f0"/>
+  <rect x="890" y="96" width="350" height="580" rx="12" fill="#fff" stroke="#dbe2f0"/>
+
+  <text x="66" y="138" font-size="20" fill="#111827" font-family="Arial">Create / Edit Transaction</text>
+  <text x="66" y="188" font-size="14" fill="#374151" font-family="Arial">Type</text>
+  <rect x="66" y="196" width="768" height="40" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
+  <text x="84" y="222" font-size="14" fill="#111827" font-family="Arial">expense</text>
+
+  <text x="66" y="258" font-size="14" fill="#374151" font-family="Arial">Category</text>
+  <rect x="66" y="266" width="768" height="40" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
+  <text x="84" y="292" font-size="14" fill="#111827" font-family="Arial">Food</text>
+
+  <text x="66" y="328" font-size="14" fill="#374151" font-family="Arial">Amount</text>
+  <rect x="66" y="336" width="768" height="40" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
+  <text x="84" y="362" font-size="14" fill="#111827" font-family="Arial">12000</text>
+
+  <text x="66" y="398" font-size="14" fill="#374151" font-family="Arial">Memo</text>
+  <rect x="66" y="406" width="768" height="110" rx="8" fill="#f8fafc" stroke="#d1d5db"/>
+  <text x="84" y="434" font-size="14" fill="#111827" font-family="Arial">Lunch with team</text>
+
   <rect x="66" y="584" width="140" height="44" rx="8" fill="#2563eb"/>
+  <text x="110" y="612" font-size="16" fill="#fff" font-family="Arial">Save</text>
   <rect x="220" y="584" width="140" height="44" rx="8" fill="#e5e7eb"/>
-  <text x="920" y="140" font-size="20" fill="#111827" font-family="Arial">요약 패널</text>
+  <text x="262" y="612" font-size="16" fill="#374151" font-family="Arial">Cancel</text>
+
+  <text x="920" y="140" font-size="20" fill="#111827" font-family="Arial">Preview</text>
+  <rect x="920" y="160" width="290" height="150" rx="10" fill="#f8fafc" stroke="#d1d5db"/>
+  <text x="938" y="190" font-size="14" fill="#374151" font-family="Arial">Expense trend</text>
+  <polyline points="938,280 980,250 1020,260 1060,230 1100,245 1140,220 1180,235" fill="none" stroke="#7c3aed" stroke-width="4"/>
+
+  <rect x="920" y="330" width="290" height="190" rx="10" fill="#f8fafc" stroke="#d1d5db"/>
+  <text x="938" y="360" font-size="14" fill="#374151" font-family="Arial">Category split</text>
+  <circle cx="1065" cy="430" r="58" fill="#ede9fe"/>
+  <path d="M1065 372 A58 58 0 0 1 1123 430 L1065 430 Z" fill="#8b5cf6"/>
+  <path d="M1123 430 A58 58 0 0 1 1065 488 L1065 430 Z" fill="#22c55e"/>
+  <path d="M1065 488 A58 58 0 0 1 1018 396 L1065 430 Z" fill="#f97316"/>
+  <path d="M1018 396 A58 58 0 0 1 1065 372 L1065 430 Z" fill="#ef4444"/>
+  <circle cx="1065" cy="430" r="28" fill="#f8fafc"/>
 </svg>

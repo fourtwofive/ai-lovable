@@ -1,19 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
   <rect width="1280" height="720" fill="#f5f7fb"/>
   <rect x="0" y="0" width="1280" height="64" fill="#1f3a8a"/>
-  <text x="28" y="40" font-size="24" fill="#ffffff" font-family="Arial">Budget Dashboard - Main</text>
-  <rect x="28" y="92" width="290" height="110" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <rect x="338" y="92" width="290" height="110" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <rect x="648" y="92" width="290" height="110" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <rect x="958" y="92" width="290" height="110" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <rect x="28" y="228" width="780" height="260" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <rect x="828" y="228" width="420" height="260" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <rect x="28" y="510" width="1220" height="182" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
-  <text x="46" y="136" font-size="18" fill="#4b5563" font-family="Arial">총 수입</text>
-  <text x="356" y="136" font-size="18" fill="#4b5563" font-family="Arial">총 지출</text>
-  <text x="666" y="136" font-size="18" fill="#4b5563" font-family="Arial">잔액</text>
-  <text x="976" y="136" font-size="18" fill="#4b5563" font-family="Arial">거래 수</text>
-  <text x="52" y="272" font-size="20" fill="#111827" font-family="Arial">월별 수입/지출 차트</text>
-  <text x="852" y="272" font-size="20" fill="#111827" font-family="Arial">카테고리 비중</text>
-  <text x="52" y="554" font-size="20" fill="#111827" font-family="Arial">최근 거래 내역</text>
+  <text x="28" y="40" font-size="24" fill="#fff" font-family="Arial">Budget Dashboard</text>
+
+  <rect x="28" y="92" width="290" height="110" rx="12" fill="#fff" stroke="#dbe2f0"/>
+  <rect x="338" y="92" width="290" height="110" rx="12" fill="#fff" stroke="#dbe2f0"/>
+  <rect x="648" y="92" width="290" height="110" rx="12" fill="#fff" stroke="#dbe2f0"/>
+  <rect x="958" y="92" width="290" height="110" rx="12" fill="#fff" stroke="#dbe2f0"/>
+  <text x="46" y="130" font-size="16" fill="#4b5563" font-family="Arial">Income</text>
+  <text x="46" y="170" font-size="28" fill="#0f766e" font-family="Arial">+ 4,520,000</text>
+  <text x="356" y="130" font-size="16" fill="#4b5563" font-family="Arial">Expense</text>
+  <text x="356" y="170" font-size="28" fill="#b91c1c" font-family="Arial">- 2,130,000</text>
+  <text x="666" y="130" font-size="16" fill="#4b5563" font-family="Arial">Balance</text>
+  <text x="666" y="170" font-size="28" fill="#1d4ed8" font-family="Arial">2,390,000</text>
+  <text x="976" y="130" font-size="16" fill="#4b5563" font-family="Arial">Transactions</text>
+  <text x="976" y="170" font-size="28" fill="#111827" font-family="Arial">128</text>
+
+  <rect x="28" y="228" width="780" height="260" rx="12" fill="#fff" stroke="#dbe2f0"/>
+  <text x="52" y="262" font-size="18" fill="#111827" font-family="Arial">Monthly Income / Expense</text>
+  <line x1="72" y1="450" x2="760" y2="450" stroke="#cbd5e1"/>
+  <line x1="72" y1="300" x2="72" y2="450" stroke="#cbd5e1"/>
+  <rect x="110" y="340" width="28" height="110" fill="#60a5fa"/>
+  <rect x="145" y="380" width="28" height="70" fill="#f87171"/>
+  <rect x="220" y="320" width="28" height="130" fill="#60a5fa"/>
+  <rect x="255" y="360" width="28" height="90" fill="#f87171"/>
+  <rect x="330" y="300" width="28" height="150" fill="#60a5fa"/>
+  <rect x="365" y="355" width="28" height="95" fill="#f87171"/>
+  <rect x="440" y="310" width="28" height="140" fill="#60a5fa"/>
+  <rect x="475" y="370" width="28" height="80" fill="#f87171"/>
+  <rect x="550" y="290" width="28" height="160" fill="#60a5fa"/>
+  <rect x="585" y="350" width="28" height="100" fill="#f87171"/>
+  <polyline points="110,360 240,340 350,315 460,330 570,300 680,320" fill="none" stroke="#1d4ed8" stroke-width="4"/>
+
+  <rect x="828" y="228" width="420" height="260" rx="12" fill="#fff" stroke="#dbe2f0"/>
+  <text x="852" y="262" font-size="18" fill="#111827" font-family="Arial">Category Share</text>
+  <circle cx="1038" cy="360" r="90" fill="#eef2ff"/>
+  <path d="M1038 270 A90 90 0 0 1 1128 360 L1038 360 Z" fill="#3b82f6"/>
+  <path d="M1128 360 A90 90 0 0 1 1038 450 L1038 360 Z" fill="#10b981"/>
+  <path d="M1038 450 A90 90 0 0 1 958 330 L1038 360 Z" fill="#f59e0b"/>
+  <path d="M958 330 A90 90 0 0 1 1038 270 L1038 360 Z" fill="#ef4444"/>
+  <circle cx="1038" cy="360" r="44" fill="#fff"/>
+
+  <rect x="28" y="510" width="1220" height="182" rx="12" fill="#fff" stroke="#dbe2f0"/>
+  <text x="52" y="542" font-size="18" fill="#111827" font-family="Arial">Recent Transactions</text>
+  <line x1="44" y1="556" x2="1234" y2="556" stroke="#e5e7eb"/>
+  <line x1="44" y1="594" x2="1234" y2="594" stroke="#f1f5f9"/>
+  <line x1="44" y1="632" x2="1234" y2="632" stroke="#f1f5f9"/>
+  <line x1="44" y1="670" x2="1234" y2="670" stroke="#f1f5f9"/>
 </svg>
