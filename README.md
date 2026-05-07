@@ -66,13 +66,13 @@ budget-app/
 > 아래 이미지는 프로젝트 화면 구성 예시입니다. 필요하면 실제 실행 캡처로 교체해 사용할 수 있습니다.
 
 ### 1) 대시보드
-![대시보드 화면](docs/screenshots/dashboard-screen.svg)
+![대시보드 화면](docs/screenshots/dashboard.png)
 
 ### 2) 거래 내역 목록
-![거래내역 화면](docs/screenshots/transactions-screen.svg)
+![거래내역 화면](docs/screenshots/transactions.png)
 
 ### 3) 거래 등록/수정
-![거래등록 화면](docs/screenshots/transaction-form-screen.svg)
+![거래등록 화면](docs/screenshots/transaction-form.png)
 
 ---
 
