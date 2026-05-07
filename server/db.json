@@ -1,0 +1,804 @@
+{
+  "transactions": [
+    {
+      "id": 2,
+      "date": "2026-05-04",
+      "type": "expense",
+      "category": "쇼핑",
+      "description": "신발",
+      "amount": 63315
+    },
+    {
+      "id": 3,
+      "date": "2026-05-02",
+      "type": "expense",
+      "category": "식비",
+      "description": "배달음식",
+      "amount": 37865
+    },
+    {
+      "id": 4,
+      "date": "2026-05-02",
+      "type": "expense",
+      "category": "교통비",
+      "description": "택시",
+      "amount": 50234
+    },
+    {
+      "id": 5,
+      "date": "2026-04-30",
+      "type": "expense",
+      "category": "교통비",
+      "description": "택시",
+      "amount": 7146
+    },
+    {
+      "id": 6,
+      "date": "2026-04-30",
+      "type": "income",
+      "category": "급여",
+      "description": "연차수당",
+      "amount": 549721
+    },
+    {
+      "id": 7,
+      "date": "2026-04-29",
+      "type": "expense",
+      "category": "주거비",
+      "description": "수도세",
+      "amount": 71572
+    },
+    {
+      "id": 8,
+      "date": "2026-04-29",
+      "type": "expense",
+      "category": "교육비",
+      "description": "학원비",
+      "amount": 58026
+    },
+    {
+      "id": 9,
+      "date": "2026-04-29",
+      "type": "expense",
+      "category": "의료비",
+      "description": "병원진료",
+      "amount": 61027
+    },
+    {
+      "id": 10,
+      "date": "2026-04-27",
+      "type": "expense",
+      "category": "쇼핑",
+      "description": "신발",
+      "amount": 20590
+    },
+    {
+      "id": 11,
+      "date": "2026-04-25",
+      "type": "income",
+      "category": "이자수익",
+      "description": "펀드수익",
+      "amount": 691770
+    },
+    {
+      "id": 12,
+      "date": "2026-04-20",
+      "type": "expense",
+      "category": "주거비",
+      "description": "관리비",
+      "amount": 22311
+    },
+    {
+      "id": 13,
+      "date": "2026-04-18",
+      "type": "expense",
+      "category": "통신비",
+      "description": "클라우드",
+      "amount": 36382
+    },
+    {
+      "id": 14,
+      "date": "2026-04-18",
+      "type": "income",
+      "category": "부업",
+      "description": "원고료",
+      "amount": 2078998
+    },
+    {
+      "id": 15,
+      "date": "2026-04-14",
+      "type": "expense",
+      "category": "식비",
+      "description": "마트 장보기",
+      "amount": 81972
+    },
+    {
+      "id": 16,
+      "date": "2026-04-13",
+      "type": "expense",
+      "category": "주거비",
+      "description": "관리비",
+      "amount": 73235
+    },
+    {
+      "id": 17,
+      "date": "2026-04-13",
+      "type": "income",
+      "category": "부업",
+      "description": "중고거래",
+      "amount": 1977338
+    },
+    {
+      "id": 18,
+      "date": "2026-04-12",
+      "type": "expense",
+      "category": "교육비",
+      "description": "학원비",
+      "amount": 6793
+    },
+    {
+      "id": 19,
+      "date": "2026-04-10",
+      "type": "expense",
+      "category": "의료비",
+      "description": "건강검진",
+      "amount": 51961
+    },
+    {
+      "id": 20,
+      "date": "2026-04-10",
+      "type": "income",
+      "category": "이자수익",
+      "description": "채권이자",
+      "amount": 1813669
+    },
+    {
+      "id": 21,
+      "date": "2026-04-06",
+      "type": "expense",
+      "category": "주거비",
+      "description": "월세",
+      "amount": 62200
+    },
+    {
+      "id": 22,
+      "date": "2026-04-05",
+      "type": "expense",
+      "category": "식비",
+      "description": "배달음식",
+      "amount": 66477
+    },
+    {
+      "id": 23,
+      "date": "2026-04-05",
+      "type": "expense",
+      "category": "주거비",
+      "description": "수도세",
+      "amount": 82127
+    },
+    {
+      "id": 24,
+      "date": "2026-04-04",
+      "type": "income",
+      "category": "용돈",
+      "description": "친척 용돈",
+      "amount": 761454
+    },
+    {
+      "id": 25,
+      "date": "2026-04-03",
+      "type": "income",
+      "category": "부업",
+      "description": "프리랜서 수입",
+      "amount": 887656
+    },
+    {
+      "id": 26,
+      "date": "2026-04-03",
+      "type": "expense",
+      "category": "통신비",
+      "description": "OTT구독",
+      "amount": 81075
+    },
+    {
+      "id": 27,
+      "date": "2026-03-31",
+      "type": "expense",
+      "category": "주거비",
+      "description": "관리비",
+      "amount": 25607
+    },
+    {
+      "id": 28,
+      "date": "2026-03-31",
+      "type": "expense",
+      "category": "주거비",
+      "description": "월세",
+      "amount": 59040
+    },
+    {
+      "id": 29,
+      "date": "2026-03-31",
+      "type": "income",
+      "category": "부업",
+      "description": "중고거래",
+      "amount": 1761397
+    },
+    {
+      "id": 30,
+      "date": "2026-03-29",
+      "type": "expense",
+      "category": "교통비",
+      "description": "주유",
+      "amount": 31214
+    },
+    {
+      "id": 31,
+      "date": "2026-03-28",
+      "type": "income",
+      "category": "보너스",
+      "description": "포상금",
+      "amount": 106187
+    },
+    {
+      "id": 32,
+      "date": "2026-03-27",
+      "type": "income",
+      "category": "급여",
+      "description": "수당",
+      "amount": 169782
+    },
+    {
+      "id": 33,
+      "date": "2026-03-27",
+      "type": "expense",
+      "category": "쇼핑",
+      "description": "신발",
+      "amount": 57696
+    },
+    {
+      "id": 34,
+      "date": "2026-03-22",
+      "type": "expense",
+      "category": "식비",
+      "description": "편의점",
+      "amount": 66335
+    },
+    {
+      "id": 35,
+      "date": "2026-03-22",
+      "type": "expense",
+      "category": "쇼핑",
+      "description": "온라인 쇼핑",
+      "amount": 65995
+    },
+    {
+      "id": 36,
+      "date": "2026-03-20",
+      "type": "income",
+      "category": "부업",
+      "description": "원고료",
+      "amount": 1807431
+    },
+    {
+      "id": 37,
+      "date": "2026-03-19",
+      "type": "expense",
+      "category": "식비",
+      "description": "배달음식",
+      "amount": 41872
+    },
+    {
+      "id": 38,
+      "date": "2026-03-18",
+      "type": "expense",
+      "category": "식비",
+      "description": "마트 장보기",
+      "amount": 8293
+    },
+    {
+      "id": 39,
+      "date": "2026-03-18",
+      "type": "income",
+      "category": "용돈",
+      "description": "생일 용돈",
+      "amount": 556182
+    },
+    {
+      "id": 40,
+      "date": "2026-03-17",
+      "type": "expense",
+      "category": "경조사",
+      "description": "생일선물",
+      "amount": 21541
+    },
+    {
+      "id": 41,
+      "date": "2026-03-14",
+      "type": "expense",
+      "category": "문화생활",
+      "description": "전시회",
+      "amount": 64343
+    },
+    {
+      "id": 42,
+      "date": "2026-03-14",
+      "type": "income",
+      "category": "보너스",
+      "description": "연말보너스",
+      "amount": 1301114
+    },
+    {
+      "id": 43,
+      "date": "2026-03-11",
+      "type": "expense",
+      "category": "통신비",
+      "description": "OTT구독",
+      "amount": 26832
+    },
+    {
+      "id": 44,
+      "date": "2026-03-10",
+      "type": "expense",
+      "category": "주거비",
+      "description": "수도세",
+      "amount": 28671
+    },
+    {
+      "id": 45,
+      "date": "2026-03-10",
+      "type": "income",
+      "category": "급여",
+      "description": "성과급",
+      "amount": 1630879
+    },
+    {
+      "id": 46,
+      "date": "2026-03-07",
+      "type": "expense",
+      "category": "경조사",
+      "description": "장례식",
+      "amount": 33767
+    },
+    {
+      "id": 47,
+      "date": "2026-03-07",
+      "type": "expense",
+      "category": "문화생활",
+      "description": "영화관람",
+      "amount": 56037
+    },
+    {
+      "id": 48,
+      "date": "2026-03-06",
+      "type": "expense",
+      "category": "교육비",
+      "description": "온라인강의",
+      "amount": 63773
+    },
+    {
+      "id": 49,
+      "date": "2026-03-05",
+      "type": "expense",
+      "category": "식비",
+      "description": "배달음식",
+      "amount": 79578
+    },
+    {
+      "id": 50,
+      "date": "2026-03-05",
+      "type": "expense",
+      "category": "교육비",
+      "description": "인강결제",
+      "amount": 19133
+    },
+    {
+      "id": 51,
+      "date": "2026-03-05",
+      "type": "expense",
+      "category": "카페",
+      "description": "동네카페",
+      "amount": 13003
+    },
+    {
+      "id": 52,
+      "date": "2026-03-02",
+      "type": "income",
+      "category": "부업",
+      "description": "프리랜서 수입",
+      "amount": 462912
+    },
+    {
+      "id": 53,
+      "date": "2026-03-02",
+      "type": "expense",
+      "category": "주거비",
+      "description": "전기요금",
+      "amount": 17735
+    },
+    {
+      "id": 54,
+      "date": "2026-02-27",
+      "type": "expense",
+      "category": "식비",
+      "description": "마트 장보기",
+      "amount": 49731
+    },
+    {
+      "id": 55,
+      "date": "2026-02-25",
+      "type": "expense",
+      "category": "문화생활",
+      "description": "전시회",
+      "amount": 64036
+    },
+    {
+      "id": 56,
+      "date": "2026-02-24",
+      "type": "income",
+      "category": "부업",
+      "description": "블로그 수익",
+      "amount": 1626243
+    },
+    {
+      "id": 57,
+      "date": "2026-02-24",
+      "type": "expense",
+      "category": "식비",
+      "description": "배달음식",
+      "amount": 56051
+    },
+    {
+      "id": 58,
+      "date": "2026-02-24",
+      "type": "expense",
+      "category": "교육비",
+      "description": "학원비",
+      "amount": 53970
+    },
+    {
+      "id": 59,
+      "date": "2026-02-21",
+      "type": "expense",
+      "category": "쇼핑",
+      "description": "생활용품",
+      "amount": 67954
+    },
+    {
+      "id": 60,
+      "date": "2026-02-21",
+      "type": "income",
+      "category": "이자수익",
+      "description": "적금이자",
+      "amount": 1780699
+    },
+    {
+      "id": 61,
+      "date": "2026-02-18",
+      "type": "expense",
+      "category": "교육비",
+      "description": "도서구입",
+      "amount": 82515
+    },
+    {
+      "id": 62,
+      "date": "2026-02-17",
+      "type": "expense",
+      "category": "경조사",
+      "description": "결혼식 축의금",
+      "amount": 59193
+    },
+    {
+      "id": 63,
+      "date": "2026-02-15",
+      "type": "expense",
+      "category": "주거비",
+      "description": "전기요금",
+      "amount": 65728
+    },
+    {
+      "id": 64,
+      "date": "2026-02-15",
+      "type": "expense",
+      "category": "경조사",
+      "description": "결혼식 축의금",
+      "amount": 11121
+    },
+    {
+      "id": 65,
+      "date": "2026-02-15",
+      "type": "expense",
+      "category": "쇼핑",
+      "description": "온라인 쇼핑",
+      "amount": 36156
+    },
+    {
+      "id": 66,
+      "date": "2026-02-14",
+      "type": "income",
+      "category": "부업",
+      "description": "원고료",
+      "amount": 402258
+    },
+    {
+      "id": 67,
+      "date": "2026-02-13",
+      "type": "expense",
+      "category": "문화생활",
+      "description": "전시회",
+      "amount": 74264
+    },
+    {
+      "id": 68,
+      "date": "2026-02-12",
+      "type": "expense",
+      "category": "교육비",
+      "description": "인강결제",
+      "amount": 52071
+    },
+    {
+      "id": 69,
+      "date": "2026-02-12",
+      "type": "income",
+      "category": "부업",
+      "description": "강의료",
+      "amount": 325322
+    },
+    {
+      "id": 70,
+      "date": "2026-02-12",
+      "type": "expense",
+      "category": "카페",
+      "description": "스타벅스",
+      "amount": 26410
+    },
+    {
+      "id": 71,
+      "date": "2026-02-11",
+      "type": "expense",
+      "category": "교육비",
+      "description": "온라인강의",
+      "amount": 72207
+    },
+    {
+      "id": 72,
+      "date": "2026-02-10",
+      "type": "income",
+      "category": "급여",
+      "description": "연차수당",
+      "amount": 1863530
+    },
+    {
+      "id": 73,
+      "date": "2026-02-10",
+      "type": "income",
+      "category": "용돈",
+      "description": "친척 용돈",
+      "amount": 1361195
+    },
+    {
+      "id": 74,
+      "date": "2026-02-10",
+      "type": "expense",
+      "category": "카페",
+      "description": "동네카페",
+      "amount": 16278
+    },
+    {
+      "id": 75,
+      "date": "2026-02-10",
+      "type": "expense",
+      "category": "주거비",
+      "description": "월세",
+      "amount": 7450
+    },
+    {
+      "id": 76,
+      "date": "2026-02-09",
+      "type": "expense",
+      "category": "의료비",
+      "description": "치과",
+      "amount": 51267
+    },
+    {
+      "id": 77,
+      "date": "2026-02-07",
+      "type": "expense",
+      "category": "통신비",
+      "description": "도메인",
+      "amount": 5051
+    },
+    {
+      "id": 78,
+      "date": "2026-02-06",
+      "type": "expense",
+      "category": "교통비",
+      "description": "주유",
+      "amount": 15047
+    },
+    {
+      "id": 79,
+      "date": "2026-02-05",
+      "type": "expense",
+      "category": "통신비",
+      "description": "OTT구독",
+      "amount": 42038
+    },
+    {
+      "id": 80,
+      "date": "2026-02-03",
+      "type": "expense",
+      "category": "통신비",
+      "description": "도메인",
+      "amount": 20068
+    },
+    {
+      "id": 81,
+      "date": "2026-02-03",
+      "type": "income",
+      "category": "용돈",
+      "description": "명절 용돈",
+      "amount": 339583
+    },
+    {
+      "id": 82,
+      "date": "2026-02-01",
+      "type": "expense",
+      "category": "식비",
+      "description": "점심 김밥천국",
+      "amount": 55315
+    },
+    {
+      "id": 83,
+      "date": "2026-02-01",
+      "type": "income",
+      "category": "급여",
+      "description": "성과급",
+      "amount": 1076966
+    },
+    {
+      "id": 84,
+      "date": "2026-01-31",
+      "type": "expense",
+      "category": "의료비",
+      "description": "병원진료",
+      "amount": 37252
+    },
+    {
+      "id": 85,
+      "date": "2026-01-31",
+      "type": "expense",
+      "category": "통신비",
+      "description": "클라우드",
+      "amount": 9602
+    },
+    {
+      "id": 86,
+      "date": "2026-01-30",
+      "type": "income",
+      "category": "급여",
+      "description": "수당",
+      "amount": 195058
+    },
+    {
+      "id": 87,
+      "date": "2026-01-28",
+      "type": "expense",
+      "category": "의료비",
+      "description": "한의원",
+      "amount": 77748
+    },
+    {
+      "id": 88,
+      "date": "2026-01-27",
+      "type": "expense",
+      "category": "식비",
+      "description": "마트 장보기",
+      "amount": 56407
+    },
+    {
+      "id": 89,
+      "date": "2026-01-26",
+      "type": "expense",
+      "category": "교통비",
+      "description": "택시",
+      "amount": 8126
+    },
+    {
+      "id": 90,
+      "date": "2026-01-25",
+      "type": "expense",
+      "category": "식비",
+      "description": "마트 장보기",
+      "amount": 76707
+    },
+    {
+      "id": 91,
+      "date": "2026-01-24",
+      "type": "expense",
+      "category": "주거비",
+      "description": "관리비",
+      "amount": 26108
+    },
+    {
+      "id": 92,
+      "date": "2026-01-22",
+      "type": "expense",
+      "category": "식비",
+      "description": "배달음식",
+      "amount": 8254
+    },
+    {
+      "id": 93,
+      "date": "2026-01-21",
+      "type": "expense",
+      "category": "문화생활",
+      "description": "넷플릭스",
+      "amount": 72854
+    },
+    {
+      "id": 94,
+      "date": "2026-01-19",
+      "type": "expense",
+      "category": "통신비",
+      "description": "휴대폰요금",
+      "amount": 73731
+    },
+    {
+      "id": 95,
+      "date": "2026-01-11",
+      "type": "expense",
+      "category": "경조사",
+      "description": "결혼식 축의금",
+      "amount": 63917
+    },
+    {
+      "id": 96,
+      "date": "2026-01-09",
+      "type": "expense",
+      "category": "카페",
+      "description": "동네카페",
+      "amount": 80912
+    },
+    {
+      "id": 97,
+      "date": "2026-01-08",
+      "type": "expense",
+      "category": "교통비",
+      "description": "택시",
+      "amount": 66240
+    },
+    {
+      "id": 98,
+      "date": "2026-01-07",
+      "type": "expense",
+      "category": "교육비",
+      "description": "인강결제",
+      "amount": 13041
+    },
+    {
+      "id": 99,
+      "date": "2026-01-06",
+      "type": "expense",
+      "category": "쇼핑",
+      "description": "화장품",
+      "amount": 10438
+    },
+    {
+      "id": 100,
+      "date": "2026-01-03",
+      "type": "expense",
+      "category": "통신비",
+      "description": "도메인",
+      "amount": 38171
+    },
+    {
+      "date": "2026-05-07",
+      "type": "expense",
+      "category": "식비",
+      "description": "테스트테스트",
+      "amount": 30000,
+      "id": 101
+    }
+  ]
+}
