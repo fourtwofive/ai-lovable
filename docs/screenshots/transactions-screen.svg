@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f7fafc"/>
+  <rect x="0" y="0" width="1280" height="64" fill="#0f766e"/>
+  <text x="28" y="40" font-size="24" fill="#ffffff" font-family="Arial">Transactions</text>
+  <rect x="28" y="92" width="1224" height="70" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="44" y="110" width="120" height="34" rx="17" fill="#10b981"/>
+  <rect x="176" y="110" width="120" height="34" rx="17" fill="#ef4444"/>
+  <rect x="308" y="110" width="260" height="34" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+  <rect x="28" y="182" width="1224" height="510" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="50" y="220" font-size="18" fill="#111827" font-family="Arial">날짜</text>
+  <text x="220" y="220" font-size="18" fill="#111827" font-family="Arial">카테고리</text>
+  <text x="420" y="220" font-size="18" fill="#111827" font-family="Arial">금액</text>
+  <text x="560" y="220" font-size="18" fill="#111827" font-family="Arial">유형</text>
+  <text x="700" y="220" font-size="18" fill="#111827" font-family="Arial">메모</text>
+  <text x="1080" y="220" font-size="18" fill="#111827" font-family="Arial">액션</text>
+  <line x1="44" y1="236" x2="1236" y2="236" stroke="#e5e7eb"/>
+  <line x1="44" y1="286" x2="1236" y2="286" stroke="#f1f5f9"/>
+  <line x1="44" y1="336" x2="1236" y2="336" stroke="#f1f5f9"/>
+  <line x1="44" y1="386" x2="1236" y2="386" stroke="#f1f5f9"/>
+  <line x1="44" y1="436" x2="1236" y2="436" stroke="#f1f5f9"/>
+</svg>
