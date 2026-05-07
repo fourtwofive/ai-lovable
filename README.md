@@ -64,13 +64,13 @@ budget-app/
 ## 🖼️ 화면 구성 (실행 화면)
 
 ### 1) 대시보드
-![대시보드 화면](docs/screenshots/dashboard.png)
+![대시보드 화면](https://raw.githubusercontent.com/fourtwofive/ai-lovable/main/docs/screenshots/dashboard.png)
 
 ### 2) 거래 내역 목록
-![거래내역 화면](docs/screenshots/transactions.png)
+![거래내역 화면](https://raw.githubusercontent.com/fourtwofive/ai-lovable/main/docs/screenshots/transactions.png)
 
 ### 3) 거래 등록/수정
-![거래등록 화면](docs/screenshots/transaction-form.png)
+![거래등록 화면](https://raw.githubusercontent.com/fourtwofive/ai-lovable/main/docs/screenshots/transaction-form.png)
 
 ---
 
@@ -85,6 +85,34 @@ flowchart LR
   E --> D
   D --> C
   C --> B
+```
+
+---
+
+## 🧩 컴포넌트 구성도 (Mermaid)
+
+```mermaid
+flowchart TB
+  Main[main.js\n(Vue 생성 + Pinia/Router 연결)] --> App[App.vue\nSidebar + RouterView]
+  App --> RouterView[RouterView]
+
+  Router[router/index.js] --> Dashboard[Dashboard.vue\n대시보드(StatCard + Google Charts)]
+  Router --> Transactions[Transactions.vue\n거래 목록/필터/검색]
+  Router --> TransactionForm[TransactionForm.vue\n거래 추가/수정]
+  Router --> TransactionDetail[TransactionDetail.vue\n거래 상세]
+
+  Dashboard --> StatCard[StatCard.vue]
+  Dashboard --> ColumnChart[GChart ColumnChart]
+  Dashboard --> PieChart[GChart PieChart]
+  Dashboard --> LineChart[GChart LineChart]
+
+  Transactions --> Store[transactionStore.js]
+  Dashboard --> Store
+  TransactionForm --> Store
+  TransactionDetail --> Store
+
+  Store --> Axios[api/axios.js\n(baseURL: http://localhost:3001)]
+  Axios --> JsonServer[json-server\n(server/db.json)]
 ```
 
 ---
