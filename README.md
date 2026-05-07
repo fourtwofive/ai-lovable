@@ -93,26 +93,40 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-  Main[main.js\n(Vue 생성 + Pinia/Router 연결)] --> App[App.vue\nSidebar + RouterView]
-  App --> RouterView[RouterView]
+  %% (캡처처럼) 큰 영역은 subgraph로 묶어서 그룹 단위로 표시
 
-  Router[router/index.js] --> Dashboard[Dashboard.vue\n대시보드(StatCard + Google Charts)]
-  Router --> Transactions[Transactions.vue\n거래 목록/필터/검색]
-  Router --> TransactionForm[TransactionForm.vue\n거래 추가/수정]
-  Router --> TransactionDetail[TransactionDetail.vue\n거래 상세]
+  subgraph VueApp["Vue App"]
+    Main["src/main.js\n(Vue 생성 + Pinia/Router 연결)"] --> App["src/App.vue\nSidebar + RouterView"]
+    App --> Router["src/router/index.js\n라우팅 설정"]
+    Router --> Dashboard["src/views/Dashboard.vue\n대시보드"]
+    Router --> Transactions["src/views/Transactions.vue\n거래내역"]
+    Router --> TransactionForm["src/views/TransactionForm.vue\n거래 추가/수정"]
+    Router --> TransactionDetail["src/views/TransactionDetail.vue\n거래 상세"]
+  end
 
-  Dashboard --> StatCard[StatCard.vue]
-  Dashboard --> ColumnChart[GChart ColumnChart]
-  Dashboard --> PieChart[GChart PieChart]
-  Dashboard --> LineChart[GChart LineChart]
+  subgraph UIComponents["UI Components"]
+    StatCard["src/components/StatCard.vue"] 
+    GChart["vue-google-charts\n(GChart: Column/Pie/Line)"]
+  end
 
-  Transactions --> Store[transactionStore.js]
+  subgraph StateData["State / Data"]
+    Store["Pinia Store\nsrc/stores/transactionStore.js\n(fetch/CRUD + 계산)"]
+    Axios["axios instance\nsrc/api/axios.js\n(baseURL: http://localhost:3001)"]
+    JsonServer["json-server\nserver/db.json"]
+  end
+
+  %% Views -> UI components
+  Dashboard --> StatCard
+  Dashboard --> GChart
+
+  %% Views -> Store
   Dashboard --> Store
+  Transactions --> Store
   TransactionForm --> Store
   TransactionDetail --> Store
 
-  Store --> Axios[api/axios.js\n(baseURL: http://localhost:3001)]
-  Axios --> JsonServer[json-server\n(server/db.json)]
+  %% Store -> API -> Mock DB
+  Store --> Axios --> JsonServer
 ```
 
 ---
