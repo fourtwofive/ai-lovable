@@ -2,6 +2,17 @@ import { defineStore } from 'pinia';
 import { ref, computed } from 'vue';
 import api from '../api/axios.js';
 
+const getCurrentUserId = () => {
+  try {
+    const raw = localStorage.getItem('budget-auth-user');
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    return parsed?.id ?? null;
+  } catch {
+    return null;
+  }
+};
+
 export const useTransactionStore = defineStore('transactions', () => {
   const transactions = ref([]);
   const loading = ref(false);
@@ -9,10 +20,17 @@ export const useTransactionStore = defineStore('transactions', () => {
 
   // ===== json-server 연결 (axios) =====
   const fetchTransactions = async () => {
+    const userId = getCurrentUserId();
+    if (!userId) {
+      transactions.value = [];
+      return;
+    }
     loading.value = true;
     error.value = null;
     try {
-      const { data } = await api.get('/transactions');
+      const { data } = await api.get('/transactions', {
+        params: { userId, _sort: 'date', _order: 'desc' }
+      });
       transactions.value = data;
     } catch (e) {
       error.value = e.message;
@@ -23,13 +41,17 @@ export const useTransactionStore = defineStore('transactions', () => {
   };
 
   const addTransaction = async (payload) => {
-    const { data } = await api.post('/transactions', payload);
+    const userId = getCurrentUserId();
+    if (!userId) throw new Error('로그인이 필요합니다.');
+    const { data } = await api.post('/transactions', { ...payload, userId });
     transactions.value.unshift(data);
   };
 
   const updateTransaction = async (id, payload) => {
-    const { data } = await api.put(`/transactions/${id}`, payload);
-    const idx = transactions.value.findIndex((t) => t.id === id);
+    const userId = getCurrentUserId();
+    if (!userId) throw new Error('로그인이 필요합니다.');
+    const { data } = await api.put(`/transactions/${id}`, { ...payload, userId });
+    const idx = transactions.value.findIndex((t) => String(t.id) === String(id));
     if (idx !== -1) transactions.value[idx] = data;
   };
 
